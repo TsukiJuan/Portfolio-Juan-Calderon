@@ -12,7 +12,7 @@ ul{
 
 body{
     min-height: 100vh;
-    background-color: #1c2841 ;
+    background-color: #483d8b ;
     background-size: cover;
     background-position: center;
 }
@@ -59,3 +59,37 @@ body{
     width: 100%;
 
 }
+
+.main-img{
+    border-radius: 1000px;
+    width: 100px;
+    height: 100px;
+}
+
+.main__section{
+    padding: 100px;
+    min-height: 800px;
+    display: flex;
+    border: 8px solid #966fd6;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section__article{
+    height: 500px;
+    width: 500px;
+    background-image: url(img/background-night.jpg) ;
+    background-size: cover;
+    padding: 125px;
+    display: flex;
+}
+
+.section__article__basic{
+    color: #fff0f5;
+}
+
+.section__article__basic h1:hover{
+    color: #000;
+    transition: 2s;
+}
+
