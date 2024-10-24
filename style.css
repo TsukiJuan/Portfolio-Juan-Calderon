@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     --primary-color: #fff0f5 ;
     --second-color: #080808;
@@ -93,3 +94,50 @@ body{
     transition: 2s;
 }
 
+=======
+body{
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+a{
+   text-decoration: none;
+   color: #fff;
+}
+header{
+    min-height: 70px;
+    display: flex;
+    background-color:#423333;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    height: 50px;
+    border-radius: 50px;
+}
+
+nav a{
+   font-weight: 600;
+   padding-right: 10px;
+}
+
+nav a:hover{
+    color: #A29898;
+}
+
+@media (max-width: 680px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+>>>>>>> feature-css
